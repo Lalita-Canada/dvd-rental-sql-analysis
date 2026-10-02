@@ -1,32 +1,30 @@
-# DVD Rental Store Analysis — SQL & SQLite
-## York University — Big Data Analytics Certificate (2024)
-
-**Author:** Lalita  
-**Tools:** Python, SQLite, Pandas, Matplotlib, Seaborn  
-**Database:** SQLite Sakila Sample Database (16 tables)  
+# DVD Rental Store Analysis - SQL & SQLite
 
 ## Project Overview
-Analysis of a DVD rental store database using complex SQL 
-JOINs across 6 tables to identify top performing films, 
-most valuable customers and highest revenue categories.
+Analyzed a DVD rental store database (SQLite Sakila Sample Database, 16 tables) using complex SQL JOINs across 6 tables to identify top performing films, most valuable customers, and highest revenue categories. Completed as part of the York University Big Data Analytics Certificate (2024).
 
-## Key Findings
-| Insight | Result |
-|---|---|
-| Top Rented Film | BUCKET BROTHERHOOD — 34 rentals |
-| Top Customer | ELEANOR HUNT — 46 rentals |
-| Highest Revenue Category | Sports — $5,314.21 |
-| SQL Tables Used | 6 tables with complex JOINs |
-
-## Technologies Used
+## Tools Used
 - Python
 - SQLite
+- SQL (multi-table JOINs, GROUP BY, COUNT, SUM)
 - Pandas
 - Matplotlib
 - Seaborn
-- Complex SQL JOINs
 
-## Links
-- 🔗 Kaggle: kaggle.com/lalitacanada
-- 💼 LinkedIn: linkedin.com/in/lalita-lalita-1778672a3# dvd-rental-sql-analysis
-DVD Rental Store Analysis using SQL and SQLite — York University 2024
+## Key Insights
+![DVD Rental Dashboard](dvd_rental_dashboard.png)
+
+1. Sports is the highest revenue category at $5,314.21 from 1,179 rentals
+2. BUCKET BROTHERHOOD is the most rented film with 34 rentals
+3. ELEANOR HUNT is the top customer by rentals (46 rentals, $216.54 spent)
+4. KARL SEAL rented fewer films (45) but spent more ($221.55), so the most frequent renter is not the highest spender
+5. Music is the lowest revenue category at $3,417.72
+
+## SQL Tables Used
+film, inventory, rental, payment, customer, category, film_category
+
+## Dataset
+SQLite Sakila Sample Database from Kaggle
+
+## View Full Project on Kaggle
+https://www.kaggle.com/code/lalitacanada/dvd-rental-store-analysis-sql-york-university
