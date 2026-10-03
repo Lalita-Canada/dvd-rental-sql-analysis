@@ -3,6 +3,11 @@
 ## Project Overview
 Analyzed a DVD rental store database (SQLite Sakila Sample Database, 16 tables) using complex SQL JOINs across 6 tables to identify top performing films, most valuable customers, and highest revenue categories. Completed as part of the York University Big Data Analytics Certificate (2024).
 
+## Team Project
+This was a group project for the York University Big Data Analytics Certificate (2024).
+My contributions: [what you did, e.g., data cleaning, writing the SQL queries, building the charts, presenting findings]
+In 2026, I re-ran and improved the analysis independently, including [the fix for this project].
+
 ## Tools Used
 - Python
 - SQLite
