@@ -5,7 +5,9 @@ Analyzed a DVD rental store database (SQLite Sakila Sample Database, 16 tables) 
 
 ## Team Project
 This was a group project for the York University Big Data Analytics Certificate (2024).
-My contributions: [e.g., writing the SQL queries, creating the charts]
+
+My contributions: I worked with my team on all stages of the project, including data preparation, analysis, and presenting findings.
+
 In 2026, I re-ran and verified the analysis independently, and added the finding that the most frequent renter is not the highest spender.
 
 ## Tools Used
